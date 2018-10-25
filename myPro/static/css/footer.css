@@ -1,0 +1,17 @@
+.my_font_color{
+    color:#727272;
+
+}
+.my_font{
+    font-size:12px;
+    width:1110px;
+    margin:0 auto;
+}
+.footer-bottom{
+    background:#141414;
+    height:100px;
+}
+.footer-top{
+    background:#181818;
+    margin:0 auto;
+}

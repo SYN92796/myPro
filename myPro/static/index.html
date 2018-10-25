@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>PeppaGame</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body class="bg-dark">
+<!--头部-->
+    <header id="header">
+    </header>
+<!--主页内容 -->
+    <div>
+        <div class="carousel slide" id="index-carousel" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#index-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#index-carousel" data-slide-to="1"></li>
+                <li data-target="#index-carousel" data-slide-to="2"></li>
+                <li data-target="#index-carousel" data-slide-to="3"></li>
+            </ul>
+            <!-- 轮播图片-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="http://lol.qq.com/main.shtml"><img src="img/index/carousel-1.jpg" alt="" height="800px" width="100%"/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="http://lol.qq.com/main.shtml"><img src="img/index/carousel-2.jpg" alt="" height="800px" width="100%"/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="http://lol.qq.com/main.shtml"><img src="img/index/carousel-3.jpg" alt="" height="800px" width="100%"/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="http://lol.qq.com/main.shtml"><img src="img/index/carousel-4.jpg" alt="" height="800px" width="100%"/></a>
+                </div>
+            </div>
+            <!-- 左右箭头-->
+            <a href="#index-carousel" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+            <a href="#index-carousel" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+        </div>
+        <div>
+            <ul class="nav nav-tabs text-center my_blue">
+                <li class="nav-item w-25 ">
+                    <a href="#tab1" class="nav-link  text-primary active dead" data-toggle="tab">热门单机</a>
+                </li>
+                <li class="nav-item w-25">
+                    <a href="#tab2" class="nav-link  text-primary dead" data-toggle="tab">手游大作</a>
+                </li>
+                <li class="nav-item w-25">
+                    <a href="#tab3" class="nav-link text-primary dead" data-toggle="tab">大型网游</a>
+                </li>
+                <li class="nav-item w-25">
+                    <a href="#tab4" class="nav-link text-primary dead" data-toggle="tab">即将上市</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active my_margin" id="tab1">
+                    <div class="w-100 row">
+                       <!--   <div class="col-3 text-center p-2">
+                             <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/standalone/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">极品飞车</h4></a>
+                        </div>-->
+                    </div> 
+                </div>
+                <div class="tab-pane my_margin" id="tab2">
+                    <div class="w-100 row">
+                        <div class="col-3 text-center p-2">
+                            <img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <a href="#"><h4 class="text-white">阴阳师</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">阴阳师</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                           <a href="#"><img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">阴阳师</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">阴阳师</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                           <a href="#"><img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">阴阳师</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">阴阳师</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">阴阳师</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                           <a href="#"><img src="img/hand-tour/2.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">阴阳师</h4></a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="tab-pane my_margin" id="tab3">
+                    <div class="w-100 row">
+                        <div class="col-3 text-center p-2">
+                        <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                           <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                           <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                           <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                           <a href="#"><img src="img/webgame/1.jpg" width="320px" height="160px" alt=""/>
+                        <h4 class="text-white">英雄联盟</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane my_margin" id="tab4">
+                    <div class="w-100 row">
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                            <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                          <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+                        <div class="col-3 text-center p-2">
+                          <a href="#"><img src="img/coming/1.jpg" width="320px" height="160px" alt=""/>
+                            <h4 class="text-white">使命召唤15</h4></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wanton">
+
+    </div>
+<!--第二部分-->
+            <!-- 广告栏 -->
+    <div id="advertising"></div>
+            <!-- 分页-->
+    <div id="accordion">
+      <div class="title" id="hot">
+        近<br>期<br>热<br>点
+      </div>
+      <div class="secContain">
+          <div class="hidden">
+              <div class="hidden2">
+                  <div>
+                      <img src="img/index/hots/1.png" alt="" class="w-100 ">
+                  </div>
+                  <div> 
+                      <a href="news.html" target="_blank"><h5>这部漫威蜘蛛侠可能是今年最好的超级英雄类游戏</h5></a>
+                  </div>
+                  <p>如果要评选近年来“星途”最波折的超级英雄，蜘蛛侠一定会是榜单上的常客。从经典三部曲的横空出世，到《超凡蜘蛛侠》口碑滑坡，好不容易回了漫威娘家，开始与其他超级英雄联动，又在《复仇者联盟3》里化成了灰。作为漫威宇宙中最受欢迎的平民超级英雄，这样的荧幕表现多少有些让人哭笑不得.</p>
+                  <h6>2018-01-01 12:30:20</h6>
+              </div>  
+              <div class="hidden2">
+                    <div>
+                        <img src="img/index/hots/2.jpg" alt="" class="w-100 ">
+                    </div>
+                    <div> 
+                        <a href="news.html" target="_blank"><h5>卡通简约悬疑新游《The Hex》10.17登陆Steam</h5></a>
+                    </div>
+                    <p>以制作脑洞游戏《小马岛(Pony Island)》闻名业界的加拿大工作室Daniel Mullins Games近日宣布旗下另一款独立新游《The Hex》将于10月17登陆Steam解锁，这回又将是一次不看画面看内容的烧脑游戏！</p>
+                    <h6>2018-01-01 12:30:20</h6>
+                </div>  
+                <div class="hidden2">
+                    <div><img src="img/index/hots/3.jpg" alt="" class="w-100 "></div>
+                    <div><a href="news.html" target="_blank"><h5>温馨秋收季！M社3DS系《牧场物语》秋季半价促销开启</h5></a></div>
+                    <p>炎夏终于快要过去，收获季即将到来，Marvelous社今天宣布，旗下经典温馨治愈系3DS系《牧场物语》秋季半价促销开启，感兴趣的玩家可以关注下了。</p>
+                    <h6>2018-01-01 12:30:20</h6>
+                </div>  
+                <div class="hidden2">
+                    <div><img src="img/index/hots/4.jpg" alt="" class="w-100 "></div>
+                    <div><a href="news.html" target="_blank"><h5>《侠盗猎车OL》全新更新发布 对抗模式等经典内容回归</h5></a></div>
+                    <p>今日，R星发布了《侠盗猎车OL》的全新更新，对抗模式等经典内容重新回归。橄榄球赛季如火如荼，那个以志向高远的小哑剧为主角的对抗模式现已蓄势回归。坎坷归途(重混版)的目标仍是抵达终点区，但现在小型掀背车身边的对手们已是升级至五星级的泰泽拉克车队。这场全新的交通堵塞大对抗的打造初衷，就是让屠杀与竞争达到极致。</p>
+                    <h6>2018-01-01 12:30:20</h6>
+                </div>  
+                <div class="hidden2">
+                    <div><img src="img/index/hots/5.jpg" alt="" class="w-100 "></div>
+                    <div><a href="news.html" target="_blank"><h5>《地球防卫军：铁雨》新预告及演示 热血激战巨型虫族</h5></a></div>
+                    <p>今日D3P公布了《地球防卫军：铁雨》新预告，外媒IGN也放出了游戏演示，视频展示了《铁雨》游戏画面。成千上万的虫族怪物对地球发起进攻，勇敢的人类士兵使用高科技装备迎战怪兽，战争场面热血激情。</p>
+                    <h6>2018-01-01 12:30:20</h6>
+                </div>  
+                <div class="hidden2">
+                    <div><img src="img/index/hots/6.jpg" alt="" class="w-100 "></div>
+                    <div><a href="news.html" target="_blank"><h5>洛基来了！传迪士尼欲拍MCU二线角色限定网剧 首批将是抖森和奥妹</h5></a></div>
+                    <p>继昨晚放出《惊奇队长》的首支预告片后，迪士尼又有了一个大胆的想法——自家的流媒体平台Disney Play有望在明年下半年上线，目前正在野心勃勃地筹备一系列自制的限制剧集（一季讲一个完整的故事那种），会有MCU中的一些高人气角色出现。</p>
+                    <h6>2018-01-01 12:30:20</h6>
+               </div> 
+               <div class="hidden2">
+                <div><img src="img/index/hots/7.jpg" alt="" class="w-100 "></div>
+                <div><a href="news.html" target="_blank"><h5>努比亚双屏手机曝真机图：前后都是屏幕 侧面指纹识别</h5></a></div>
+                <p>据国内媒体报道，智能手机厂商努比亚即将推出的双屏手机早前被曝通过工信部入网许可，而近日已经有网友在微博上，曝光了这款新机的真机照片，前后均配备了彩色屏幕。</p>
+                <h6>2018-01-01 12:30:20</h6>
+                </div> 
+                <div class="hidden2">
+                    <div><img src="img/index/hots/8.jpg" alt="" class="w-100 "></div>
+                    <div><a href="news.html" target="_blank"><h5>田畑端：《最终幻想15》新DLC将开启故事全新篇章！</h5></a></div>
+                    <p>《最终幻想15》的最后一款DLC将于明年夏天发布，这离这款游戏首次公开之后已经过去了近13年。而巧合的是，这款游戏最初在2006年E3上，官方名称是《最终幻想Versus 13》。</p>
+                    <h6>2018-01-01 12:30:20</h6>
+                </div> 
+                <div class="hidden2">
+                    <div><img src="img/index/hots/9.jpg" alt="" class="w-100 "></div>
+                    <div><a href="news.html" target="_blank"><h5>不会强迫你氪金！《鬼泣5》正常游玩获得红魂数量曝光</h5></a></div>
+                    <p>《鬼泣5》昨日的微交易系统引发了巨大的争议，玩家可在游戏内商店中用真钱购买红魂，来快速升级解锁装备。</p>
+                    <h6>2018-01-01 12:30:20</h6>
+                </div> 
+                <div class="hidden2">
+                    <a href="news.html" target="_blank"><h5>查<br>看<br>更<br>多</h5></a>
+                </div>
+            </div>
+        </div>
+      <div class="title" id="pic">
+        精<br>美<br>图<br>片
+      </div>
+      <div class="secContain" id="pic-content">
+         <div class="hidden">
+               <div class="hidden2" id="picPrev">
+                 <a href="javascript:;"><img src="img/index/pic/arrow-left.png" alt=""></a>
+               </div>
+               <div  class="hidden2" id="picBody">
+                   <img src="img/index/pic/1.jpg" alt="">
+               </div>
+               <div  class="hidden2" id="picNext">
+                   <a href="javascript:;"> <img src="img/index/pic/arrow-right.png" alt=""></a>
+               </div>
+               <div class="hidden2" >
+               <ul id="picContainer">
+                   <li data-target="0"><img src="img/index/pic/1.jpg" alt=""></li>
+                   <li data-target="1"><img src="img/index/pic/2.jpg" alt=""></li>
+                   <li data-target="2"><img src="img/index/pic/3.jpg" alt=""></li>
+                   <li data-target="3"><img src="img/index/pic/4.jpg" alt=""></li>
+                   <li data-target="4"><img src="img/index/pic/5.jpg" alt=""></li>
+                   <li data-target="5"><img src="img/index/pic/6.jpg" alt=""></li>
+                   <li data-target="6"><img src="img/index/pic/7.jpg" alt=""></li>
+               </ul>  
+               </div>       
+         </div>
+      </div>
+       <div class="title" id="rank">
+        游<br>戏<br>排<br>行
+       </div>
+       <div class="secContain">
+          <div class="hidden">
+            <ul class="hidden2">
+                <li>
+                    <p>
+                        <span>单机总排行</span>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="Grand Theft Auto V">
+                        <img src="img/index/rank/1.1.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">1.</span>
+                        <span class="col-10">侠盗猎车5</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                       <a href="http://127.0.0.1:4000/news.html" title="Elder Scrolls V: Skyrim">
+                        <img src="img/index/rank/1.2.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">2.</span>
+                        <span class="col-10">上古卷轴5：天际</span>
+                       </a>
+                    </p>
+                    <p class="row">
+                            <a href="http://127.0.0.1:4000/news.html" title="Need For Speed: Rivals">
+                             <img src="img/index/rank/1.3.jpg" alt="">
+                             <span class="col-1" style="font-size: 32px;margin-right:10px;">3.</span>
+                             <span class="col-10">极品飞车18：宿敌</span>
+                            </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="NieR：Automata">
+                        <img src="img/index/rank/1.4.jpg" alt="">
+                         <span class="col-1" style="font-size: 32px;margin-right:10px;">4.</span>
+                        <span class="col-10">尼尔：机械纪元</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="The Witcher 3：Wild Hunt">
+                        <img src="img/index/rank/1.5.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">5.</span>
+                        <span class="col-10">巫师3：狂猎</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="Civilization VI">
+                        <img src="img/index/rank/1.6.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">6.</span>
+                        <span class="col-10">文明6</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                        <a href="http://127.0.0.1:4000/news.html" title="The Sims 4">
+                            <img src="img/index/rank/1.7.jpg" alt="">
+                          <span class="col-1" style="font-size: 32px;margin-right:10px;">7.</span>
+                          <span class="col-10">模拟人生4</span>
+                        </a>
+                      </p>
+                    <p class="row">
+                        <a href="http://127.0.0.1:4000/news.html" title="Watch Dogs 2">
+                            <img src="img/index/rank/1.8.jpg" alt="">
+                          <span class="col-1" style="font-size: 32px;margin-right:10px;">8.</span>
+                          <span class="col-10">看门狗2</span>
+                        </a>
+                      </p>
+                </li>
+                <li>
+                    <p>
+                        <span>期待游戏榜</span>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="Devil May Cry 5">
+                        <img src="img/index/rank/2.1.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">1.</span>
+                        <span class="col-10">鬼泣5</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                       <a href="http://127.0.0.1:4000/news.html" title="GTA6">
+                        <img src="img/index/rank/2.2.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">2.</span>
+                        <span class="col-10">侠盗猎车6</span>
+                       </a>
+                    </p>
+                    <p class="row">
+                            <a href="http://127.0.0.1:4000/news.html" title="Red Dead: RedemptionⅡ">
+                             <img src="img/index/rank/2.3.jpg" alt="">
+                             <span class="col-1" style="font-size: 32px;margin-right:10px;">3.</span>
+                             <span class="col-10">荒野大镖客2</span>
+                            </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="He Luo Qun Xia Zhuan">
+                        <img src="img/index/rank/2.4.png" alt="">
+                         <span class="col-1" style="font-size: 32px;margin-right:10px;">4.</span>
+                        <span class="col-10">河洛群侠传</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="Days Gone">
+                        <img src="img/index/rank/2.5.png" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">5.</span>
+                        <span class="col-10">旧日不再</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="GuJian3">
+                        <img src="img/index/rank/2.6.png" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">6.</span>
+                        <span class="col-10">古剑奇谭3</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                        <a href="http://127.0.0.1:4000/news.html" title="Call of Duty: Black Ops 4">
+                            <img src="img/index/rank/2.7.jpg" alt="">
+                          <span class="col-1" style="font-size: 32px;margin-right:10px;">7.</span>
+                          <span class="col-10">使命召唤15</span>
+                        </a>
+                      </p>
+                    <p class="row">
+                        <a href="http://127.0.0.1:4000/news.html" title="Battlefield V">
+                            <img src="img/index/rank/2.8.jpg" alt="">
+                          <span class="col-1" style="font-size: 32px;margin-right:10px;">8.</span>
+                          <span class="col-10">战地5</span>
+                        </a>
+                      </p>
+                </li>
+                <li>
+                    <p>
+                        <span>2018单机游戏排行</span>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="Final Fantasy XV">
+                        <img src="img/index/rank/3.1.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">1.</span>
+                        <span class="col-10">最终幻想15</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                       <a href="http://127.0.0.1:4000/news.html" title="Kingdom Come: Deliverance">
+                        <img src="img/index/rank/3.2.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">2.</span>
+                        <span class="col-10">天国：拯救</span>
+                       </a>
+                    </p>
+                    <p class="row">
+                            <a href="http://127.0.0.1:4000/news.html" title=" Dynasty Warriors 9">
+                             <img src="img/index/rank/3.3.jpg" alt="">
+                             <span class="col-1" style="font-size: 32px;margin-right:10px;">3.</span>
+                             <span class="col-10">真三国无双8</span>
+                            </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title=" Monster Hunter：World">
+                        <img src="img/index/rank/3.4.jpg" alt="">
+                         <span class="col-1" style="font-size: 32px;margin-right:10px;">4.</span>
+                        <span class="col-10">怪物猎人：世界</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title="The Forest">
+                        <img src="img/index/rank/3.5.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">5.</span>
+                        <span class="col-10">森林</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                      <a href="http://127.0.0.1:4000/news.html" title=" Ys VIII: Lacrimosa of DANA">
+                        <img src="img/index/rank/3.6.jpg" alt="">
+                        <span class="col-1" style="font-size: 32px;margin-right:10px;">6.</span>
+                        <span class="col-10">伊苏8：达娜的安魂曲</span>
+                      </a>
+                    </p>
+                    <p class="row">
+                        <a href="http://127.0.0.1:4000/news.html" title=" Far Cry 5">
+                            <img src="img/index/rank/3.7.jpg" alt="">
+                          <span class="col-1" style="font-size: 32px;margin-right:10px;">7.</span>
+                          <span class="col-10">孤岛惊魂5</span>
+                        </a>
+                      </p>
+                    <p class="row">
+                        <a href="http://127.0.0.1:4000/news.html" title="Dragon Quest XI - Sugi Sarishi Toki o Motomete">
+                            <img src="img/index/rank/3.8.jpg" alt="">
+                          <span class="col-1" style="font-size: 32px;margin-right:10px;">8.</span>
+                          <span class="col-10">勇者斗恶龙11</span>
+                        </a>
+                      </p>
+                </li>
+            </ul>
+          </div>
+       </div>
+       <div class="title" id="radio">
+            大<br>神<br>操<br>作
+       </div>
+       <div class="secContain">
+           <div  class="hidden">
+                <div class="hidden2">
+                    <ul>
+                        <li>
+                          <a href="http://www.douyutv.com" target="_blank">
+                            <img src="img/index/video/dy1.jpg" alt="">
+                            <p>
+                                <span class="font2">极限竞速 地平线4！</span>
+                                <span class="font">主机游戏</span>
+                            </p>
+                            <p class="font3">
+                                <span>主播阿飞</span>
+                                <span>123万</span>
+                            </p>
+                            <p class="font">
+                                <span>女装大佬</span>
+                                <span>读档是狗</span>
+                            </p>
+                            <div>
+                                <span>点击进入</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="http://www.douyutv.com" target="_blank">
+                              <img src="img/index/video/dy3.jpg" alt="">
+                              <p>
+                                  <span class="font2">极限竞速 地平线4！</span>
+                                  <span class="font">主机游戏</span>
+                              </p>
+                              <p class="font3">
+                                  <span>主播阿飞</span>
+                                  <span>123万</span>
+                              </p>
+                              <p class="font">
+                                  <span>女装大佬</span>
+                                  <span>读档是狗</span>
+                              </p>
+                              <div>
+                                  <span>点击进入</span>
+                              </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.douyutv.com" target="_blank">
+                              <img src="img/index/video/dy2.jpg" alt="">
+                              <p>
+                                  <span class="font2">极限竞速 地平线4！</span>
+                                  <span class="font">主机游戏</span>
+                              </p>
+                              <p class="font3">
+                                  <span>主播阿飞</span>
+                                  <span>123万</span>
+                              </p>
+                              <p class="font">
+                                  <span>女装大佬</span>
+                                  <span>读档是狗</span>
+                              </p>
+                              <div>
+                                  <span>点击进入</span>
+                              </div>
+                            </a>
+                          </li>
+                          <li>
+                              <a href="http://www.douyutv.com" target="_blank">
+                                <img src="img/index/video/dy4.jpg" alt="">
+                                <p>
+                                    <span class="font2">极限竞速 地平线4！</span>
+                                    <span class="font">主机游戏</span>
+                                </p>
+                                <p class="font3">
+                                    <span>主播阿飞</span>
+                                    <span>123万</span>
+                                </p>
+                                <p class="font">
+                                    <span>女装大佬</span>
+                                    <span>读档是狗</span>
+                                </p>
+                                <div>
+                                    <span>点击进入</span>
+                                </div>
+                              </a>
+                            </li>
+                            <li>
+                                <a href="http://www.douyutv.com" target="_blank">
+                                  <img src="img/index/video/dy5.jpg" alt="">
+                                  <p>
+                                      <span class="font2">极限竞速 地平线4！</span>
+                                      <span class="font">主机游戏</span>
+                                  </p>
+                                  <p class="font3">
+                                      <span>主播阿飞</span>
+                                      <span>123万</span>
+                                  </p>
+                                  <p class="font">
+                                      <span>女装大佬</span>
+                                      <span>读档是狗</span>
+                                  </p>
+                                  <div>
+                                      <span>点击进入</span>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                  <a href="http://www.douyutv.com" target="_blank">
+                                    <img src="img/index/video/dy6.jpg" alt="">
+                                    <p>
+                                        <span class="font2">极限竞速 地平线4！</span>
+                                        <span class="font">主机游戏</span>
+                                    </p>
+                                    <p class="font3">
+                                        <span>主播阿飞</span>
+                                        <span>123万</span>
+                                    </p>
+                                    <p class="font">
+                                        <span>女装大佬</span>
+                                        <span>读档是狗</span>
+                                    </p>
+                                    <div>
+                                        <span>点击进入</span>
+                                    </div>
+                                  </a>
+                                </li>         
+                    </ul>
+                    <div>
+                        <a href="http://www.douyutv.com" target="_blank"><span>了解更多</span></a>
+                    </div>
+                </div>
+           </div>
+       </div>
+       <div class="title" id="equipment">
+            硬<br>件<br>设<br>备
+       </div>
+       <div class="secContain">
+           <div  class="hidden">
+              <div class="hidden2">
+               <ul>
+                   <li class="eqActive"><a data-toggle="item" href="#DIY">DIY组装电脑</a></li>
+                   <li><a data-toggle="item" href="#CPU">CPU</a></li>
+                   <li><a data-toggle="item" href="#VC">显卡</a></li>
+                   <li><a data-toggle="item" href="#MB">主板</a></li>
+                   <li><a data-toggle="item" href="#MEM">内存</a></li>
+                   <li><a data-toggle="item" href="#HD">硬盘</a></li>
+                   <li><a data-toggle="item" href="#SSD">固态硬盘</a></li>
+                   <li><a data-toggle="item" href="#CASE">机箱</a></li>
+                   <li><a data-toggle="item" href="#PS">电源</a></li>
+                   <li><a data-toggle="item" href="#RAD">散热器</a></li>
+                   <li><a data-toggle="item" href="#KW">键盘</a></li>
+                   <li><a data-toggle="item" href="#MOS">鼠标</a></li>
+                   <li><a data-toggle="item" href="#SCR">显示器</a></li>
+               </ul>
+               <div class="scContain">
+                   <div id="DIY" class="scBox scActive">
+                       <ul>
+                           <li>
+                               <ul>
+                                   <li>品牌</li>
+                                   <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/diy/1.jpg" alt=""></a></li>
+                                   <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/diy/2.jpg" alt=""></a></li>
+                                   <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/diy/3.jpg" alt=""></a></li>
+                               </ul>
+                           </li>
+                           <li>
+                               <ul>
+                                   <li>价格</li>
+                                   <li><a href="http://diy.zol.com.cn/" target="_blank">2999以下</a></li>
+                                   <li><a href="http://diy.zol.com.cn/" target="_blank">3000-4999元</a></li>
+                                   <li><a href="http://diy.zol.com.cn/" target="_blank">5000-7999元</a></li>
+                                   <li><a href="http://diy.zol.com.cn/" target="_blank">8000以上</a></li>
+                               </ul>
+                           </li>
+                           <li>
+                            <ul>
+                                <li>配置</li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">豪华发烧型</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">图像影音型</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">疯狂游戏型</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">经济实惠型</a></li>
+                            </ul>
+                           </li>
+                       </ul>
+                   </div>
+                   <div id="CPU" class="scBox">
+                    <ul>
+                        <li>
+                            <ul>
+                                <li>品牌</li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/cpu/2.jpg" alt=""></a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/cpu/1.jpg" alt=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>价格</li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">500元以下</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">500-1499元</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">1500元以上</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                         <ul>
+                             <li>系列</li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">酷睿i9</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">酷睿i7</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">酷睿i5</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">酷睿i3</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">奔腾</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">赛扬</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">凌动</a></li>
+                         </ul>
+                        </li>
+                    </ul>
+                   </div>
+                   <div id="VC" class="scBox">
+                      <ul>
+                        <li>
+                            <ul>
+                                <li>品牌</li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/vc/1.jpg" alt=""></a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/vc/2.jpg" alt=""></a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/vc/3.jpg" alt=""></a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/vc/4.jpg" alt=""></a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/vc/5.jpg" alt=""></a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/vc/6.jpg" alt=""></a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/vc/7.jpg" alt=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>价格</li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">500元以下</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">500-1000元</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">1001-1500元</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">1501-2000元</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">2001-3000元</a></li>
+                                <li><a href="http://diy.zol.com.cn/" target="_blank">3000元以上</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                         <ul>
+                             <li>容量</li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">24G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">16G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">12G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">11G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">8G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">6G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">4G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">3G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">2G</a></li>
+                             <li><a href="http://diy.zol.com.cn/" target="_blank">1G</a></li>
+                         </ul>
+                        </li>
+                    </ul>
+                   </div>
+                   <div id="MB" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mb/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mb/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mb/3.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mb/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mb/5.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mb/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mb/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">400元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">400-1000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">1000元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>容量</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">64G</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">32G</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">16G</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">8G</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                    </div>
+                    <div id="MEM" class="scBox">
+                            <ul>
+                                    <li>
+                                        <ul>
+                                            <li>品牌</li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mem/1.jpg" alt=""></a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mem/2.jpg" alt=""></a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mem/3.jpg"  alt=""></a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mem/4.jpg" alt=""></a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mem/5.jpg"  alt=""></a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mem/6.jpg" alt=""></a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mem/7.jpg" alt=""></a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>价格</li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank">500元以下</a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank">500-1000元</a></li>
+                                            <li><a href="http://diy.zol.com.cn/" target="_blank">1000元以上</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                     <ul>
+                                         <li>类型</li>
+                                         <li><a href="http://diy.zol.com.cn/" target="_blank">DDR4</a></li>
+                                         <li><a href="http://diy.zol.com.cn/" target="_blank">DDR3</a></li>
+                                         <li><a href="http://diy.zol.com.cn/" target="_blank">DDR2</a></li>
+                                     </ul>
+                                    </li>
+                                </ul>
+                        </div>
+                   <div id="HD" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/hd/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/hd/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/hd/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/hd/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/hd/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/hd/6.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500-1000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">1000元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>容量</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">4TB及以上</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">3TB</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">2TB</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">1TB</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">500G及以下</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+                   <div id="SSD" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ssd/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ssd/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ssd/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ssd/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ssd/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ssd/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ssd/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500-1000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">1000-2000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">2000元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>容量</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">1TB及以上</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">512G-1TB</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">256G-512G</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">256G以下</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+                   <div id="CASE" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/case/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/case/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/case/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/case/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/case/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/case/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/case/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500-1000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">1000-2000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">2000元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>类型</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">台式机</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">mini</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">全塔</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">中塔</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">开放式</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">游戏机箱</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">HTPC机箱</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">服务器机箱</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+                   <div id="PS" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ps/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ps/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ps/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ps/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ps/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ps/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/ps/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">500-1000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">1000-2000元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">2000元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>类型</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">台式机电源</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">游戏电源</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">小机箱电源</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">服务器电源</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+                   <div id="RAD" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/rad/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/rad/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/rad/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/rad/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/rad/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/rad/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/rad/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">100元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">100-200元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">200元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>类型</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">CPU散热器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">笔记本散热器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">显卡散热器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">水冷散热器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">风扇</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">内存散热器</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+                   <div id="KW" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/kw/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/kw/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/kw/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/kw/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/kw/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/kw/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/kw/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">100元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">100-200元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">200元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>类型</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">有线</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">无线</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">蓝牙</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+                   <div id="MOS" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mos/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mos/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mos/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mos/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mos/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mos/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/mos/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>价格</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">100元以下</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">100-200元</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">200元以上</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>类型</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">有线</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">无线</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">蓝牙</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">多连</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">双模式(有线+无线)</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+                   <div id="SCR" class="scBox">
+                        <ul>
+                                <li>
+                                    <ul>
+                                        <li>品牌</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/scr/1.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/scr/2.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/scr/3.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/scr/4.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/scr/5.jpg"  alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/scr/6.jpg" alt=""></a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank"><img src="img/index/equipment/scr/7.jpg" alt=""></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>尺寸</li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">30英寸以上</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">27-30英寸</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">23-26英寸</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">20-22英寸</a></li>
+                                        <li><a href="http://diy.zol.com.cn/" target="_blank">20英寸以下</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                 <ul>
+                                     <li>类型</li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">曲面显示器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">5K显示器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">4K显示器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">2K显示器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">3D显示器</a></li>
+                                     <li><a href="http://diy.zol.com.cn/" target="_blank">LED显示器</a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                   </div>
+               </div>
+              </div> 
+           </div>
+       </div>
+       <div class="title" id="help">
+           游<br>戏<br>攻<br>略
+       </div>
+       <div class="secContain">
+        <div  class="hidden">
+            <div class="hidden2">
+                <ul>
+                    <li>
+                        <img src="img/index/help/1.png" alt="">
+                        <span>《刺客信条：奥德赛》如何取消等级同步</span>
+                        <span>2018-10-06 11:48:40</span>
+                        <a href="#" class="hpcontainer">点击进入</a>
+                    </li>
+                    <li>
+                        <img src="img/index/help/2.png" alt="">
+                        <span>《刺客信条：奥德赛》刷新敌人方法</span>
+                        <span>2018-10-06 11:48:40</span>
+                        <a href="#" class="hpcontainer">点击进入</a>
+                    </li>
+                    <li>
+                            <img src="img/index/help/3.png" alt="">
+                            <span>《刺客信条：奥德赛》快速刷木材心得分享</span>
+                            <span>2018-10-06 11:48:40</span>
+                            <a href="#" class="hpcontainer">点击进入</a>
+                        </li>
+                    <li>
+                                <img src="img/index/help/4.png" alt="">
+                                <span>《食魂徒》全BOSS打法视频攻略</span>
+                                <span>2018-10-06 11:48:40</span>
+                          <a href="#" class="hpcontainer">点击进入</a>
+                     </li>
+                <li>
+                       <img src="img/index/help/5.jpg" alt="">
+                       <span>《洛克人11》游戏难度选择介绍</span>
+                       <span>2018-10-06 11:48:40</span>
+                       <a href="#" class="hpcontainer">点击进入</a>
+                 </li>
+                 <li>
+                    <img src="img/index/help/6.jpg" alt="">
+                    <span>《刺客信条：奥德赛》奥利哈钢商店不刷新解决方法</span>
+                    <span>2018-10-06 11:48:40</span>
+                    <a href="#" class="hpcontainer">点击进入</a>
+                </li>
+                <li>
+                    <a href="news.html" target="_blank">了解更多</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+       </div>
+       <div class="title" id="shopping">
+           正<br>版<br>商<br>城
+       </div>
+       <div class="secContain">
+           <div  class="hidden">
+            <div class="hidden2">
+                <div class="cfloat">
+                    <span class="spTitle">正版<font color="#0094fe">游戏</font></span>
+                    <a href="http://shop.ali213.com/" target="_blank" class="link">更多+</a>
+                </div>
+                <div class="left-part">
+                    <div class="cfloat sp">
+                        <span class="spTitle2">热卖游戏</span>
+                        <a href="http://shop.ali213.com/" target="_blank" class="link">更多>></a>
+                    </div>
+                    <div class="left-pic">
+                        <a href="http://shop.ali213.com/" target="_blank">
+                       <div><img src="img/index/shopping/1.png" alt="御侠客"></div>
+                       <div>御侠客</div></a>
+                    </div>
+                    <div class="left-pic">
+                            <a href="http://shop.ali213.com/" target="_blank">
+                           <div><img src="img/index/shopping/2.jpg" alt="使命召唤15：黑色行动4"></div>
+                           <div>使命召唤15：黑色行动4</div></a>
+                    </div>
+                    <div class="left-pic">
+                            <a href="http://shop.ali213.com/" target="_blank">
+                           <div><img src="img/index/shopping/3.jpg" alt="鬼泣5"></div>
+                           <div>鬼泣5</div></a>
+                    </div>
+                    <div class="left-pic">
+                          <a href="http://shop.ali213.com/" target="_blank">
+                          <div><img src="img/index/shopping/4.jpg" alt="幻想三国志5"></div>
+                          <div>幻想三国志5</div></a>
+                    </div>
+                    <div class="left-pic">
+                            <a href="http://shop.ali213.com/" target="_blank">
+                            <div><img src="img/index/shopping/5.png" alt="侠客风云传"></div>
+                            <div>侠客风云传</div></a>
+                      </div>
+                      <div class="left-pic">
+                            <a href="http://shop.ali213.com/" target="_blank">
+                            <div><img src="img/index/shopping/6.jpg" alt="绝地求生大逃杀"></div>
+                            <div>绝地求生大逃杀</div></a>
+                      </div>
+                      <div class="left-pic">
+                            <a href="http://shop.ali213.com/" target="_blank">
+                            <div><img src="img/index/shopping/7.jpg" alt="太吾绘卷"></div>
+                            <div>太吾绘卷</div></a>
+                      </div>
+                      <div class="left-pic">
+                            <a href="http://shop.ali213.com/" target="_blank">
+                            <div><img src="img/index/shopping/8.jpg" alt="堕落之王"></div>
+                            <div>堕落之王</div></a>
+                      </div>
+                </div>
+                <div class="right-part">
+                    <div class="cfloat sp">
+                      <span class="spTitle2">最新上市</span>
+                     <a href="http://shop.ali213.com/" target="_blank" class="link">更多+</a>
+                    </div>
+                    <div>
+                        <a href="http://shop.ali213.com/" target="_blank">
+                          <img src="img/index/shopping/9.jpg" alt="" width="100%">
+                          <div>
+                              <div class="d1">国庆尊享礼包</div>
+                              <div class="d2"></div>
+                              <div class="d3">热卖中</div>
+                          </div>
+                        </a>
+                    </div>
+                    <div>
+                            <a href="http://shop.ali213.com/" target="_blank">
+                              <img src="img/index/shopping/10.jpg" alt="" width="100%">
+                              <div>
+                                    <div class="d1">立即购买</div>
+                                    <div></div>
+                                    <div class="d3">热卖中</div>
+                              </div>
+                            </a>
+                        </div>
+                </div>
+            </div>   
+           </div>
+       </div>
+      <div class="title" id="web">
+        友<br>情<br>网<br>站
+      </div>
+      <div class="secContain">
+        <div  class="hidden">
+            <div class="hidden2"><h3>友情链接:</h3></div>
+            <div class="hidden2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="www.baidu.com">百度</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="www.taobao.com">淘宝</a>
+            </div>
+        </div>
+      </div>
+            </div>
+        </div>
+ <!--底部-->
+    <footer id="footer">
+        <!-- <iframe src="footer1.html" frameborder="0" class="footer"></iframe> -->
+    </footer>
+<script src="js/ajax.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/header.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

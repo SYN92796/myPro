@@ -1,0 +1,271 @@
+.my_header3 li:nth-child(2){
+    background:orangered;
+}
+#news .newsDetails-header{
+    color:black;
+    font-size: 16px;
+    padding:20px;
+}
+#news .newsDetails-header a{
+    color:black
+}
+#news .newsDetails-header a:hover{
+    color:#0094fe;
+}
+#news .newsDetails{
+    text-align: center;
+}
+#news .newsDetails h3{
+    font-size: 25px;
+    padding:0 10px ;
+    margin: 10px 0;
+}
+#news .newsDetails>div:nth-child(2){
+    text-align: right;
+    border-bottom: 2px  solid gray;
+    margin: 10px ;
+    padding-bottom:15px;
+
+}
+#news .newsDetails>div:nth-child(2) span{
+    font-size: 12px;
+    color:gray;
+}
+#news .newsDetails .newsbody{
+    text-align: start;
+    text-indent:2em;
+    padding :20px;
+}
+#news .newsDetails .newsbody p{
+    margin:10px ;
+    font-size: 15px
+}
+#news .newsDetails .newsbody img{
+    widows: 700px;
+    height:400px;
+    display: block;
+    margin: 10px auto;
+}
+#commentPart{
+    width:990px;
+}
+#commentPart .cs-header{
+    border-bottom: 1px solid gray
+}
+#commentPart .cs-header:after{
+    content:"";
+    display: table;
+    clear:both
+}
+#commentPart .cs-icon1{
+    background-image: url("../img/news/newsdetails/comments-img.png");
+    background-position: 0 -94px;
+    float: left;
+    width:23px;
+    height:23px;
+    margin:10px 8px
+}
+#commentPart .cs-icon1+p{
+    float: left;
+    margin: 4px 1px;
+    font-weight: 900;
+    font-size:16px;
+    line-height: 36px;
+    height:36px
+}
+#commentPart .cs-icon1+p+div{
+    float: right;
+    height:40px
+}
+#commentPart .cs-icon1+p+div span{
+    margin: 0 4px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+}
+#commentPart .cs-icon1+p+div div{
+    float:left
+}
+#commentPart .cs-icon1+p+div div a{
+    background-image: url("../img/news/newsdetails/comments-img.png");
+    width:30px;
+    height:30px;
+    margin:5px 5px  0 0;
+    float: left;
+    opacity: 0.5;
+}
+#commentPart .cs-icon2{
+    background-position: 0 -216px ;
+    margin-top:7px !important;
+}
+#commentPart .cs-icon3{
+    background-position: 0 -156px
+}
+#commentPart .cs-icon4{
+    background-position: 0 -186px;
+    margin-top:7px !important;
+}
+#commentPart .cs-icon5{
+    background-position: 0 -246px;
+}
+#commentPart .cs-icon1+p+div div a:hover{
+    opacity: 1;
+}
+#commentPart .cs-body{
+    margin:15px 5px 0 5px;
+    padding:0 10px 10px 10px;
+    overflow: hidden;
+}
+#commentPart .cs-body #commentarea{
+    width:960px;
+    height:200px;
+    margin:0;
+    display: block;
+    background: #fff;
+    border:2px solid gray;
+    padding:5px;
+}
+#commentPart .cs-body div{
+    background: #abafb3;
+}
+#commentPart .cs-body div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#commentPart .cs-body div button{
+    float: right;
+    width: 73px;
+    height: 39px;
+    background: #0094fe;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+#commentPart .cs-list>div:first-child{
+    border-left: 4px solid red;
+    padding:5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin:10px;
+}
+#commentPart .cs-list .cs-list-content{
+    border-bottom:2px solid gray;
+    border-top:2px solid gray;
+    padding:10px; 
+    margin:5px;
+    box-shadow: 0 0 5px #abafb3
+}
+#commentPart .cs-list .cs-list-content:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#commentPart .cs-list .cs-list-content-left{
+    float: left;
+    width:100px;
+    margin:5px 40px;
+}
+#commentPart .cs-list .cs-list-content-left img{
+    border:1px solid gray;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+}
+#commentPart .cs-list .cs-list-content-left>div{
+    text-align: center;
+    width:100px;
+}
+#commentPart .cs-list .cs-list-content-right{
+    float: left;
+    width:780px;
+    padding:10px;
+}
+#commentPart .cs-list .cs-list-content-right:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#commentPart .cs-list .cs-list-content-right>h6{
+    float: left;
+    width:60%;
+}
+#commentPart .cs-list .cs-list-content-right>span{
+    float: right;
+    color:gray;
+    font-size: 12px;
+}
+#commentPart .cs-list .cs-list-content-right>p{
+    float: left;
+    background-color: antiquewhite;
+    width:100%;
+    padding:20px 10px;
+    border:1px solid antiquewhite;
+    margin-top:10px;
+    border-radius: 5px;
+}
+#commentPart .cs-list-content-right-bottom{
+    float: left;
+    width:100%;
+}
+#commentPart .cs-list-content-right-bottom>span{
+    float: left;
+    font-size: 14px;
+    color:gray
+}
+#commentPart .cs-list-content-right-bottom .cs-list-content-btn{
+    float: right;
+    max-width: 220px;
+}
+#commentPart .zan-cai{
+    float:left;
+    cursor: pointer;
+    margin:0 16px 0 0 
+}
+#commentPart .zan-cai span{
+    color:#abafb3
+}
+#commentPart .cs-list-content-btn .zan{
+    display: inline-block;
+    background: url(../img/news/newsdetails/comments-img.png) no-repeat;
+    background-position: 0 -60px;
+    height: 17px;
+    width: 17px;
+    margin: 0 4px -2px 0;
+}
+#commentPart .cs-list-content-btn .zaned{
+    display: inline-block;
+    background: url(../img/news/newsdetails/comments-img.png) no-repeat;
+    background-position: 0 -26px;
+    height: 17px;
+    width: 17px;
+    margin: 0 4px -2px 0;
+}
+#commentPart .cs-list-content-btn .cai{
+    display: inline-block;
+    background: url(../img/news/newsdetails/comments-img.png) no-repeat;
+    background-position: 0 -77px;
+    height: 17px;
+    width: 17px;
+    margin: 0 4px -3px 0;
+}
+#commentPart .cs-list-content-btn .caied{
+    display: inline-block;
+    background: url(../img/news/newsdetails/comments-img.png) no-repeat;
+    background-position: 0 -41px;
+    height: 17px;
+    width: 17px;
+    margin: 0 4px -3px 0;
+}
+#commentPart .replyBtn{
+    float: right;
+    margin-left:40px;
+    color: #abafb3;
+    cursor: pointer;
+}
+#commentPart .replyBtn:hover{
+    color:black;
+}

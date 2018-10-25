@@ -1,0 +1,56 @@
+body{
+    background: url(../img/standalone/1.jpg) no-repeat;
+    font-size:100%;
+}
+.register{
+    margin:8% 50%;
+    width: 40%;
+}
+.register-top{
+    background: rgba(0,0,0,.5);
+    border-radius: 25px 25px 0px 0px;
+    padding: 40px 60px;
+}
+.register-top h1{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: whitesmoke;
+    margin: 0px 0px 20px 0px;
+}
+#uname,#upwd,#user_name,#upwd-check,#phone,#email {
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #818181;
+    padding: 10px 20px;
+    background: #CACACA;
+    border: 1px solid #ccc;
+    border-radius:25px;
+    margin: 5px 0px 12px 0px;
+    width: 60%;
+}
+.register-bottom{
+    background: rgba(0,0,0,.5);
+    padding: 30px 65px;
+    border-radius: 0px 0px 25px 25px;
+    text-align: right;
+    border-top: 2px solid #000;
+}
+.ok{
+    background: url("../img/login/tick.png");
+    display:inline-block;
+    width:17px;
+    height:17px;
+    margin:0px 15px -2px 15px;
+}
+.fail{
+    background: url("../img/login/error.png");
+    display:inline-block;
+    width:17px;
+    height:17px;
+    margin:0px 15px -2px 15px;
+}
+.info{
+    display:inline-block;
+}
